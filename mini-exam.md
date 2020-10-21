@@ -13,7 +13,7 @@ Below are questions phrased in the way that they may appear on the RHCSA exam. Y
 
 0. Save the names of all files that contain a number in the /etc directory to a file in /home/centos named "numberz.txt"
 
-0. Copy /var/logs/messages into your /home/centos/ directory
+0. Copy /var/log/messages into your /home/centos/ directory
    - Create a symbolic link titled "logz" pointing to "messages"
 
 0. Put the /home/centos/ directory inside of a compressed archive.
