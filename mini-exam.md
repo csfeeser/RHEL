@@ -2,7 +2,7 @@
 
 Below are questions phrased in the way that they may appear on the RHCSA exam. You can complete these tasks in any order, BUT BE WARNED! Some steps require previous steps to have been completed first!
 
-0. Ensure that all new users have an empty file named `shazbot.txt` in their home directory.
+1. Ensure that all new users have an empty file named `shazbot.txt` in their home directory.
 
 0. Create the following users: homer, marge, lisa, bart, maggie
     - Set homer's password as “duff”
