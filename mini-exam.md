@@ -9,7 +9,7 @@ Below are questions phrased in the way that they may appear on the RHCSA exam. Y
     - Make homer's password expire after 12 days
     - Save the names of ALL users in this system to /home/centos/usernames.txt
 
-0. Change the configuration for maggie so that all files created by maggie have this permission automatically: `-r-xr-xr-x`
+0. Change the configuration for maggie so that all files created by maggie have this permission automatically: `-r-xr-xr-x` †
 
 0. Save the names of all files that contain a number in the /etc directory to a file in /home/centos named "numberz.txt"
 
@@ -38,3 +38,75 @@ Below are questions phrased in the way that they may appear on the RHCSA exam. Y
 0. Using cron, set things up so that a backup of /home/maggie/ is made daily and stored in root's home directory.
 
 0. Set up logrotate to keep files for 21 days and also to save the last 6 log files.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+† (it's not actually possible to create files with execute permission by default!)
