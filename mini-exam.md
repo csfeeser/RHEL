@@ -40,6 +40,7 @@ Below are questions phrased in the way that they may appear on the RHCSA exam. Y
 0. Set up logrotate to keep files for 21 days and also to save the last 6 log files.
 
 .
+
 .
 
 .
