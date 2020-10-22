@@ -110,10 +110,15 @@ Below are questions phrased in the way that they may appear on the RHCSA exam. Y
     - Save the output of `yum repolist` to /home/centos/repoproof.txt.
 
     `mkdir /home/centos/challenge/`
+
     `cd /home/centos/challenge/`
+
     `yum provides */sepolicy`
+
     `yumdownloader python3-policycoreutils-2.9-9.el8.noarch`
+
     `createrepo /home/centos/challenge`
+
     `vim /etc/yum.repos.d/challenge.repo`
 
     ```
@@ -122,10 +127,25 @@ Below are questions phrased in the way that they may appear on the RHCSA exam. Y
     baseurl=file:/home/centos/challenge
     gpgcheck=0
     ```
+    
     `yum repolist > /home/centos/repoproof.txt`
     
 0. Using at, make the command logger `linux is easy!` occur 2 minutes from now.
 
+    `at now + 2 minutes`
+    
+    `logger linux is easy!`
+    
 0. Using cron, set things up so that a backup of /home/maggie/ is made daily and stored in root's home directory.
 
+    `crontab -e`
+    
+    ```
+    30 2 * * * tar cvf /home/maggie/ /etc
+    ```
+    
 0. Set up logrotate to keep files for 21 days and also to save the last 6 log files.
+
+    Line 3: `weekly` change to `monthly`
+
+    Line 6: `rotate 4` change to `rotate 6`
